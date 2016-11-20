@@ -1,6 +1,6 @@
 # Learning from beevelop. Thanks!!
 
-FROM amostsai/android:r24.4.1
+FROM amostsai/android
 
 MAINTAINER Amos Tsai <amos.tsai@gmail.com>
 
