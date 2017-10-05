@@ -13,5 +13,5 @@ RUN apt-get update && apt-get install -y curl ca-certificates --no-install-recom
     curl -sL https://nodejs.org/dist/v${NODEJS_VERSION}/node-v${NODEJS_VERSION}-linux-x64.tar.gz | tar xz --strip-components=1 && \
     rm -rf /var/lib/apt/lists/* && \
     npm install npm@latest -g && \
-    npm cache clear && \
+    npm cache clear --force && \
     apt-get clean
