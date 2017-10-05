@@ -4,7 +4,7 @@ FROM amostsai/android
 
 MAINTAINER Amos Tsai <amos.tsai@gmail.com>
 
-ENV NODEJS_VERSION=6.9.1 \
+ENV NODEJS_VERSION=8.6.0 \
     PATH=$PATH:/opt/node/bin
 
 WORKDIR "/opt/node"
